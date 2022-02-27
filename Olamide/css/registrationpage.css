@@ -1,0 +1,191 @@
+body{
+    background-image: url(../images/baacck.jpg);
+    margin: 0px;
+    background-repeat: no-repeat;
+}
+
+div.container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 800px;
+    grid-template-areas: "left right";
+    margin-top: 60px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div.left{
+    background-color: rgb(16, 148, 137);
+    grid-area: left;
+    border-radius: 6px;
+}
+
+img.left_background{
+    width:550px;
+    height:800px;
+}
+
+div.logo_holder{
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.185);
+    position: relative;
+    z-index: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -500px;
+}
+
+div.welcome_text{
+    width: 80%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.678);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: auto;
+}
+
+div.head{
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+div.right{
+    background-color: rgb(255, 255, 255);
+    grid-area: right;
+    border-radius: 6px;
+}
+div.holder{
+    width: 40%;
+    height: 40px;
+    margin-left: 280px;
+    margin-top: 10px;
+    padding-top: 1px;
+    display: flex;
+    outline: 1px solid rgb(12, 4, 122);
+    outline-offset: -4px;
+}
+div.top_right_switch_buttonA{
+    width: 50%;
+    height: 35px;
+    background-color: rgb(12, 4, 122);
+    margin-top: 2px;
+    line-height: 35px;
+}
+
+div.top_right_switch_buttonB{
+    width: 50%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2px;
+    line-height: 35px;
+}
+
+a.top_right_switch_buttonB_linkA{
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a.top_right_switch_buttonB_linkB{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(12, 4, 122);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.head_title{
+    width: 24%;
+    height: 28px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+h2.head_name{
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+h2.head_name::first-letter{
+    font-size: 35px;
+}
+
+div.client_information{
+    width: 90%;
+    height: 620px;
+    outline: 1px solid rgb(12, 4, 122);
+    outline-offset: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
+label{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    height: 29px;
+    border-radius: 4px;
+    border: 1px solid rgb(12, 4, 122);
+}
+
+input:hover{
+    background-color: rgba(76, 74, 214, 0.404);
+}
+
+select{
+    height: 29px;
+    border-radius: 4px;
+    border: 1px solid rgba(12, 4, 122);
+}
+
+select:hover{
+    background-color: rgba(76, 74, 214, 0.404);
+}
+
+div.last_box_after_fillings{
+    width: 90%;
+    height: auto;
+    background-color: rgb(209, 209, 209);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -120px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+h4.terms_and_conditons{
+    margin-top: 10px;
+}
+
+div.finish_button{
+    width: 50%;
+    height: 30px;
+    background-color: rgb(12, 4, 122);
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+a.finish{
+    width: 25%;
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
