@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FORMS</title>
+
+    <style>
+    .but{
+        background-color:blueviolet;
+        color: white;
+
+    }
+
+    .text_{
+        background-color: rgb(255, 255, 255);
+        border: blueviolet;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 4px;
+
+    }
+
+
+    .radio{
+        background-color: blueviolet;
+    }
+
+
+}
+
+input  {
+    text-align: center;
+}
+
+::-webkit-input-placeholder{
+    text-align: center;
+}
+
+    input[type='radio']:after{
+        -webkit-appearance: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -8px;
+        
+        position: relative;
+        background-color: darkblue;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid red;
+}
+
+
+input[type='radio']:checked:after{
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -8px;
+        
+        position: relative;
+        background-color: green;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid red;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+<form method="GET" autocomplete="on">
+
+    <label for="Name"> Name:
+    <input class="text_" type="text" name="firstname" id="firstname" placeholder="lastname" maxlength="25" size="30">
+&nbsp; &nbsp;
+    <input class="text_" type="text" name="firstname" id="firstname" placeholder="firstname" maxlength="25" size="30">
+
+    <br/>
+    <br/>
+
+    <label for="marital status">Marital Status:</label> 
+        <select class="text_" name="marital_status" name="select" size="1" >
+        <option value="select">Select</option>
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="divorced">Divorced</option>
+        <option value="Widow">Widow</option>
+
+
+    </select>
+
+    <br/>
+    <br/>
+    <label for="Name"> Telephone:
+    <input class="text_" type="tel" name="tel" id="tel" placeholder="+234" min="6" maxlength="15" size="30">
+    
+
+
+
+<br/>
+<br/>
+<label for="gender"> Gender:
+
+        <input type="radio" name="gender" id="gender" value="Male">
+        <label for="gender">Male</label>
+
+&nbsp; &nbsp;
+        <input type="radio" name="gender" id="gender" value="Female">
+        <label for="gender">Female</label>
+
+&nbsp; &nbsp;
+        <input type="radio" name="gender" id="gender" value="Not specified">
+        <label for="gender">Not specified</label>
+</label>
+<br/>
+<br/>
+<label for="certificates">certificates:
+
+    <input type="checkbox" name="cert" id="cert" value="O-level">
+    <label for="cert_1">O-level</label>
+
+&nbsp; &nbsp;
+    <input type="checkbox" name="cert" id="cert" value="B.Sc">
+    <label for="cert_2">B.Sc</label>
+
+&nbsp; &nbsp;
+    <input type="checkbox" name="cert" id="cert" value="M.Sc">
+    <label for="cert_3">M.Sc</label>
+
+&nbsp; &nbsp;
+    <input type="checkbox" name="cert" id="cert" value="Phd">
+    <label for="cert_4">Phd </label>
+</label>
+
+<br/>
+<br/>
+<textarea name="text_comment" id="text_comment" placeholder="please leave your comment" cols="60" rows="10"></textarea>
+<br/>
+<br/>
+    <input class="but" type="button" name="login" id="login" value="LOGIN">
+
+
+
+
+</form>
+
+</body>
+
+
+
+
+
+</html>

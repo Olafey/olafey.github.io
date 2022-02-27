@@ -1,0 +1,34 @@
+body{
+    margin-top: -10px;
+}
+/* div.background{
+    width: 100%;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../images/backb.jpeg');
+    background-repeat: no-repeat; */
+    
+}
+
+/* header{
+    position: sticky;
+    top: 0;
+    background-color: blueviolet;
+    height: 50px;
+    text-align: center; */
+
+}
+
+div.img{
+    width: 50%;
+    height: 600px;
+    background-color: red;
+}
+img{
+    width: 50%;
+    height: 400px;
+    -webkit-box-reflect: below 1px;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(200, 125, 129, 0.9), rgb(63, 28, 49));
+    box-shadow: black 2px 5px 30px 2px;
+} 
